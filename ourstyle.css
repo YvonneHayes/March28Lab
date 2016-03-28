@@ -10,10 +10,12 @@
   width: 199px;
   display: flex;
   justify-content: space-around;
+  margin-left:142px;
 }
 
 #delicious img {
   float: left;
+}
 
 
 #vanessa {
@@ -69,7 +71,7 @@ footer p {
 }
 
 #icons {
-  width: 500px;
+  width: 100%;
   background-color: red;
 }
 
@@ -80,11 +82,16 @@ footer p {
 }
 
 #icons ul {
+  width: 240px;
   list-style-type: none;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
   float: right;
+}
+
+#rss {
+  margin-left: 10px;
 }
 
 #tagline {
@@ -97,9 +104,18 @@ footer p {
 
 .bar {
   background-color: grey;
-  width: 100%;
+  width: 72%;
   height: 10px;
   margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#headline {
+  width: 400px;
+  margin-left: 142px;
 }
 
 h1 {
@@ -111,6 +127,7 @@ h3 {
 }
 
 #print {
+  margin-right: 140px;
   display: flex;
   justify-content: space-around;
   font-size: 60%;
@@ -128,4 +145,14 @@ h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 72%;
+}
+
+#instructions {
+  margin-top: 30px;
+  width:70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-indent: 20px;
 }
