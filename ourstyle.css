@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 
+#heading {
+  width: 899px;
+}
+
 #delicious {
   width: 199px;
   display: flex;
   justify-content: space-around;
-  margin-left:142px;
+  margin-left:178px;
 }
 
 #delicious img {
@@ -113,11 +117,11 @@ footer p {
 
 #headline {
   width: 400px;
-  margin-left: 142px;
+  margin-left: 178px;
 }
 
 #bottom-bar {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 h1 {
@@ -129,7 +133,6 @@ h3 {
 }
 
 #print {
-  margin-right: 140px;
   display: flex;
   justify-content: space-around;
   font-size: 60%;
@@ -147,7 +150,7 @@ h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 72%;
+  width: 899px;
 }
 
 #instructions {
@@ -183,4 +186,8 @@ input {
 
 div li {
   margin-top: 7px;
+}
+
+.strike-out {
+  text-decoration: line-through;
 }
