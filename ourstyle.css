@@ -1,0 +1,12 @@
+#delicious {
+  width: 250px;
+
+}
+
+#delicious:img {
+  float: left;
+}
+
+#delicious-text {
+  float: right;
+}
