@@ -15,26 +15,38 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
-  margin: 35px 20px 0 20px;
-  width: 925px;
+  margin: 35px auto 0 auto;
+  width: 800px;
   color: #4a4740;
 }
 
-#bio p {
-  width
+#bio {
+  width: 520px;
+}
+
+#vanessa p:nth-child(3) {
+  width: 175px;
+  height: 54px;
+  background-color: #bc7058;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
 }
 
 #end {
   display: flex;
   justify-content: space-between;
-  margin-top: 85px;
+  margin-top: 65px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .line {
   height: 3px;
   width: 48%;
   background-color: #b5adab;
-  margin: 16px 10px 0 20px;
+  margin-top: 16px;
 }
 
 footer p {
