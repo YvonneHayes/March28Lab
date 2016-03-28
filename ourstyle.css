@@ -1,12 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #delicious {
   width: 250px;
-
+  display: flex;
+  justify-content: space-around;
 }
 
-#delicious:img {
-  float: left;
+
+#vanessa {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 35px 20px 0 20px;
+  width: 925px;
+  color: #4a4740;
 }
 
-#delicious-text {
-  float: right;
+#bio p {
+  width
+}
+
+#end {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 85px;
+}
+
+.line {
+  height: 3px;
+  width: 48%;
+  background-color: #b5adab;
+  margin: 16px 10px 0 20px;
+}
+
+footer p {
+  color: #b5adab;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.georgia {
+  font-family: Georgia, serif;
 }
