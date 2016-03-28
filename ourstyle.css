@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
 #delicious {
   width: 199px;
   display: flex;
@@ -14,7 +12,7 @@
 
 #delicious img {
   float: left;
-
+}
 
 #vanessa {
   display: flex;
@@ -102,6 +100,10 @@ footer p {
   margin-top: 20px;
 }
 
+#bottom-bar {
+  margin-top: 200px;
+}
+
 h1 {
   margin-top: 30px;
 }
@@ -128,4 +130,30 @@ h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#ingredients {
+  background-image: url("img/list-bg.png");
+  height: 305px;
+  width: 899px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  padding-left: 50px;
+  padding-top: 37px;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+#ingredient-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  margin-right: 5px;
+}
+
+div li {
+  margin-top: 7px;
 }
